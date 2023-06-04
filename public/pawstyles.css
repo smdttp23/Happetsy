@@ -1,0 +1,21 @@
+.container-fluid {
+    padding: 3% 25% 45% 1%;
+}
+/* .container{
+    background-color: blue;
+} */
+.container{
+    background-color: #FFE6C7;
+}
+
+/* .container{
+    text-align: center;
+} */
+.title {
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.doc{
+    color: blue;
+}
