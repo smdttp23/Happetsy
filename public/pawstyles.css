@@ -1,21 +1,261 @@
 .container-fluid {
-    padding: 3% 25% 45% 1%;
+    padding: 3% 5%;
+}
+.nav-item {
+    font-size: 1.3rem;
+    font-weight: 100;
+    font-family: "Montserrat";
+    padding: 0 18px;
+}
+
+#title {
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+
+.title {
+    font-weight: 500;
+    padding: 1% 1% 1% 1%;
+}
+
+.title-image {
+    float: right;
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    z-index: -1;
+}
+
+.border-image {
+    z-index: -1;
+    float: left;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.filler-image {
+    z-index: -1;
+    float: left;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    padding: 3% 5% 7%;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 0.5;
+    padding: 3% 5% 7%;
+}
+.pricing-column{
+    padding: 3% 5%;
+}
+
+.comm-image {
+    width: 350px;
+    height: 510px;
+    float: right;
+    margin-right: 0%;
+}
+
+.team {
+    padding-bottom: 50px;
+}
+
+#community {
+    background-color: white;
+    height: max-content;
+    /* background-image: url("./happetsyimgs/commbg1.jpg"); */
+}
+.community{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+
+.grooming {
+    padding: 5% 6%;
+    background-color: white;
+    width: auto;
+    /* display: flex; */
+    margin-top: 335px;
+    position: relative;
+    z-index: -1;
+    background-image: url("./happetsyimgs/grooming.jpg");
+
+}
+@media (max-width:410px) {
+    .grooming{
+    background-image: none;  
+    background-color: white;
+    background: fixed;
+    }    
+}
+@media (max-width:600px) {
+    .pawscomm{
+    display: none;  
+    }    
+}
+@media (max-width:1087px) {
+    .vet-image{
+        display: none;
+    }
 }
 /* .container{
-    background-color: blue;
+    display: block;
+    margin-bottom: 300px;
 } */
-.container{
+.appointment {
+    text-align: left;
+    margin-top: 200px;
+    color: #7B4C2B;;
+}
+
+.btn {
+    align-content: center;
+}
+
+.groom-image {
+    z-index: -1;
+}
+
+.team {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.team-image {
+    width: 20%;
+    border-radius: 10%;
+    margin: 20px;
+}
+
+#about-us {
+    text-align: center;
+    background-color: #FFE6C7;
+    padding: 5% 6%;
+}
+
+.title2 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.details {
+    margin: 0 auto;
+    float: none;
+    /* margin-bottom: 30px;
+    margin-top: 20px; */
+}
+
+
+.vet-image {
+    width: 350px;
+    height: 510px;
+    float: right;
+    margin-right: 0%;
+
+}
+
+.vet-image {
+    width: 350px;
+    height: 510px;
+    float: right;
+    margin-right: 0%;
+
+}
+
+@media (max-width:796px) {
+    .vet-image {
+        display: none;
+    }
+    .filler-image{
+        display:none;
+    }
+    h1 {
+        font-size: 3rem;
+        line-height: 1.5;
+        padding: 3% 5% 7%;
+    }
+
+}
+@media (max-width:596px) {
+    
+    .title-image{
+        display:none;
+    }
+    h1 {
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 3% 5% 7%;
+    }
+    
+}
+@media (max-width:353px) {
+    
+    .border-image{
+        display: none;
+    }
+    h1 {
+        font-size: 2rem;
+        line-height: 1.5;
+        padding: 3% 5% 7%;
+    }
+    
+}
+
+#vet-care {
+    background-color: #FFB9B9;
+}
+
+.doc-image {
+    width: 450px;
+    height: 510px;
+    float: left;
+    margin-left: 0%;
+    /* margin: 20px; */
+}
+
+.med {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.comm-image {
+    width: 350px;
+    height: 510px;
+    float: right;
+    margin-right: 0%;
+}
+
+.team {
+    padding-bottom: 50px;
+}
+
+#community {
+    background-color: white;
+}
+
+#contact {
     background-color: #FFE6C7;
 }
 
-/* .container{
+.footer {
+    margin-top: 10px;
     text-align: center;
+    padding-top: 80px;
+}
+
+/* #contact{
+    
 } */
-.title {
-    font-family: "Montserrat";
-    font-size: 3rem;
-    line-height: 1.5;
-}
-.doc{
-    color: blue;
-}

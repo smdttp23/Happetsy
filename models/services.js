@@ -1,12 +1,11 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const servicesSchema = new Schema({
+const shopSchema = new Schema({
     name:String,
     image:String,
     price:Number,
-    description:String,
-    location:String
+    description:String
 });
 
-module.exports = mongoose.model('services', servicesSchema);
+module.exports = mongoose.model('shop', shopSchema);
